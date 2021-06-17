@@ -1,0 +1,39 @@
+{
+  "name": "complab",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "Complab",
+    "components": [
+      {
+        "name": "Heatmap",
+        "manifest": "./src/components/Heatmap/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.42",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "@stripe/stripe-react-native": "^0.1.4",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "react-native-calendar-heatmap": "^0.2.4",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-svg": "^12.1.1",
+    "stripe": "^8.153.0"
+  }
+}
